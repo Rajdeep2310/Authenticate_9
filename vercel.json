@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/omdb/:path*", "destination": "http://www.omdbapi.com/:path*" }
+  ]
+}
